@@ -112,6 +112,20 @@
     ]
   },
   {
+    "key": "powershell",
+    "title": "PowerShell",
+    "extname": ".ps1",
+    "default": "invokewebrequest",
+    "clients": [
+      {
+        "key": "invokewebrequest",
+        "title": "Invoke-WebRequest",
+        "link": "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-6",
+        "description": "PowerShell cmdlet for making HTTP calls"
+      }
+    ]
+  },
+  {
     "key": "python",
     "title": "Python",
     "extname": ".py",
@@ -137,7 +151,7 @@
     "extname": ".m",
     "default": "nsurlsession",
     "clients": [
-       {
+      {
         "key": "nsurlsession",
         "title": "NSURLSession",
         "link": "https://developer.apple.com/library/mac/documentation/Foundation/Reference/NSURLSession_class/index.html",
@@ -151,7 +165,7 @@
     "extname": ".swift",
     "default": "nsurlsession",
     "clients": [
-       {
+      {
         "key": "nsurlsession",
         "title": "NSURLSession",
         "link": "https://developer.apple.com/library/mac/documentation/Foundation/Reference/NSURLSession_class/index.html",
@@ -165,7 +179,7 @@
     "extname": ".go",
     "default": "native",
     "clients": [
-       {
+      {
         "key": "native",
         "title": "NewRequest",
         "link": "http://golang.org/pkg/net/http/#NewRequest",
